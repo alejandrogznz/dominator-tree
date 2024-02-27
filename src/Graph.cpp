@@ -44,7 +44,6 @@ namespace gzn
         int start = root;
         SetType visited;
         SetType workSet{root};
-        // Explore the First Node
         while(!workSet.empty())
         {
             int current = *(workSet.begin());
