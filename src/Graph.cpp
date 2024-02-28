@@ -11,15 +11,6 @@ namespace gzn
         {
             vertices.insert(MapType::value_type(a,b));
         }
-
-        for (const auto &[start, end] : vertices)
-            std::cout << start << " " << end << std::endl;
-        
-        for (auto it = vertices.find(root); it != vertices.end(); ++it)
-        {
-            if(it->first != root) continue;
-            std::cout << it->first << " " << it->second << std::endl;
-        }
         stream.close();
     }
 

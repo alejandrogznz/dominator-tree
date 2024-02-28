@@ -21,7 +21,7 @@ namespace gzn
 
         void traverse();
 
-        private:
+        protected:
 
         int root;
         
